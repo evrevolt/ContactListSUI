@@ -13,12 +13,16 @@ struct ContactListView: View {
     
     var body: some View {
         
-        List(persons) { person in
-            PersonRowView(person: person)
+        NavigationStack {
+            
+            List(persons) { person in
+                PersonRowView(person: person)
+            }
+            .navigationTitle("Contact List")
         }
-        
     }
 }
+
 
 struct ContactListView_Previews: PreviewProvider {
     static var previews: some View {

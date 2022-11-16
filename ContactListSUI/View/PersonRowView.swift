@@ -9,11 +9,19 @@ import SwiftUI
 
 struct PersonRowView: View {
     
+    @State private var isPresented = false
+    
     let person: Person
     
     var body: some View {
-        HStack {
-            Text(person.fullName)
+        
+        Button(action: { isPresented.toggle() }) {
+            HStack {
+                Text(person.fullName)
+            }
+            .sheet(isPresented: $isPresented) {
+                ContactDetailsInfo(person: person)
+            }
         }
     }
 }

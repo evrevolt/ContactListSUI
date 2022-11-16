@@ -12,6 +12,7 @@
 		5441707C2925451800F32C04 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5441707B2925451800F32C04 /* Person.swift */; };
 		54417080292545FA00F32C04 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5441707F292545FA00F32C04 /* DataStore.swift */; };
 		5441708329254AEF00F32C04 /* PersonRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5441708229254AEF00F32C04 /* PersonRowView.swift */; };
+		54417085292550BC00F32C04 /* ContactDetailsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54417084292550BC00F32C04 /* ContactDetailsInfo.swift */; };
 		545947DE292368840088B3BC /* ContactListSUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545947DD292368840088B3BC /* ContactListSUIApp.swift */; };
 		545947E0292368840088B3BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545947DF292368840088B3BC /* ContentView.swift */; };
 		545947E2292368850088B3BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 545947E1292368850088B3BC /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 		5441707B2925451800F32C04 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		5441707F292545FA00F32C04 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		5441708229254AEF00F32C04 /* PersonRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonRowView.swift; sourceTree = "<group>"; };
+		54417084292550BC00F32C04 /* ContactDetailsInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsInfo.swift; sourceTree = "<group>"; };
 		545947DA292368840088B3BC /* ContactListSUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactListSUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		545947DD292368840088B3BC /* ContactListSUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListSUIApp.swift; sourceTree = "<group>"; };
 		545947DF292368840088B3BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 			children = (
 				545947DF292368840088B3BC /* ContentView.swift */,
 				54417076292543FE00F32C04 /* ContactListView.swift */,
+				54417084292550BC00F32C04 /* ContactDetailsInfo.swift */,
 				5441708229254AEF00F32C04 /* PersonRowView.swift */,
 				54417078292544C400F32C04 /* NumbersView.swift */,
 			);
@@ -185,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5441707C2925451800F32C04 /* Person.swift in Sources */,
+				54417085292550BC00F32C04 /* ContactDetailsInfo.swift in Sources */,
 				54417080292545FA00F32C04 /* DataStore.swift in Sources */,
 				54417077292543FE00F32C04 /* ContactListView.swift in Sources */,
 				545947E0292368840088B3BC /* ContentView.swift in Sources */,
