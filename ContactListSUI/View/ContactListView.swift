@@ -14,7 +14,6 @@ struct ContactListView: View {
     var body: some View {
         
         NavigationStack {
-            
             List(persons) { person in
                 PersonRowView(person: person)
             }

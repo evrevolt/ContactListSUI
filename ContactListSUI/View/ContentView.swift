@@ -18,12 +18,11 @@ struct ContentView: View {
                     Image(systemName: "person.crop.circle")
                     Text("Contacts")
                 }
-            NumbersView()
+            NumbersView(persons: person)
                 .tabItem {
                     Image(systemName: "phone")
                     Text("Numbers")
                 }
-            
         }
     }
 }

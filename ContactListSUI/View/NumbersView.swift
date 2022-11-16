@@ -8,13 +8,27 @@
 import SwiftUI
 
 struct NumbersView: View {
+    
+    var persons: [Person]
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            List {
+                ForEach(persons) { person in
+                    Section(person.fullName) {
+                        PersonView(person: person)
+                    }
+                }
+                
+            }
+            .navigationTitle("Contact List")
+        }
+        
     }
 }
 
 struct NumbersView_Previews: PreviewProvider {
     static var previews: some View {
-        NumbersView()
+        NumbersView(persons: Person.getContactList())
     }
 }

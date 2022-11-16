@@ -20,14 +20,7 @@ struct ContactDetailsInfo: View {
                     .frame(width: 250, height: 250)
                 Spacer()
                 
-                HStack {
-                    Image(systemName: "phone")
-                    Text(person.phoneNumber)
-                }
-                HStack {
-                    Image(systemName: "mail")
-                    Text(person.email)
-                }
+                PersonView(person: person)
                 Spacer()
             }
             .navigationTitle(person.fullName)
