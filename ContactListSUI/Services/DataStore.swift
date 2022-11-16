@@ -11,8 +11,6 @@ class DataStore {
     
     static let shared = DataStore()
     
-    var ids = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-    
     var names = [
         "John", "Aaron", "Tim", "Ted",
         "Steven", "Sharon", "Nicola",

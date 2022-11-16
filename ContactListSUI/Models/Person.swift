@@ -9,7 +9,7 @@ import Foundation
 
 struct Person: Identifiable {
     
-    let id: Int
+    let id: UUID
     let name: String
     let surname: String
     let email: String
@@ -25,14 +25,12 @@ extension Person {
         let dataStore = DataStore.shared
         var persons: [Person] = []
         
-        let ids = dataStore.ids.shuffled()
         let names = dataStore.names.shuffled()
         let surnames = dataStore.surnames.shuffled()
         let emails = dataStore.emails.shuffled()
         let phones = dataStore.phones.shuffled()
         
         let iterationCount = min(
-            ids.count,
             names.count,
             surnames.count,
             emails.count,
@@ -41,7 +39,7 @@ extension Person {
         
         for index in 0..<iterationCount {
             let person = Person(
-                id: ids[index],
+                id: UUID(),
                 name: names[index],
                 surname: surnames[index],
                 email: emails[index],
