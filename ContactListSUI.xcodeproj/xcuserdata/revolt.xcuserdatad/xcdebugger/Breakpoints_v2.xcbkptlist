@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B51F7727-740F-4FC1-A20A-44EAFD0DEB85"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "15699F3E-5FC5-4409-8F37-0A571D14902D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ContactListSUI/View/ContactListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "ContactListView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "15699F3E-5FC5-4409-8F37-0A571D14902D - 241909ba235b4c78"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ContactListSUI.ContactListView.persons.getter : Swift.Array&lt;ContactListSUI.Person&gt;"
+                  moduleName = "ContactListSUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/revolt/Desktop/SwiftBook/ContactListSUI/ContactListSUI/View/ContactListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "15699F3E-5FC5-4409-8F37-0A571D14902D - c0382bcdd4c94784"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ContactListSUI.ContactListView.persons.setter : Swift.Array&lt;ContactListSUI.Person&gt;"
+                  moduleName = "ContactListSUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/revolt/Desktop/SwiftBook/ContactListSUI/ContactListSUI/View/ContactListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  uuid = "15699F3E-5FC5-4409-8F37-0A571D14902D - 2bfb91361dd3de77"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ContactListSUI.ContactListView.persons.modify : Swift.Array&lt;ContactListSUI.Person&gt;"
+                  moduleName = "ContactListSUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/revolt/Desktop/SwiftBook/ContactListSUI/ContactListSUI/View/ContactListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "15699F3E-5FC5-4409-8F37-0A571D14902D - 5e270ffa7d7c3a02"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ContactListSUI.ContactListView.persons.modify : Swift.Array&lt;ContactListSUI.Person&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "ContactListSUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/revolt/Desktop/SwiftBook/ContactListSUI/ContactListSUI/View/ContactListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "15699F3E-5FC5-4409-8F37-0A571D14902D - bb40ce7e5897bb89"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ContactListSUI.ContactListView.$persons.getter : SwiftUI.Binding&lt;Swift.Array&lt;ContactListSUI.Person&gt;&gt;"
+                  moduleName = "ContactListSUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/revolt/Desktop/SwiftBook/ContactListSUI/ContactListSUI/View/ContactListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "172">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
